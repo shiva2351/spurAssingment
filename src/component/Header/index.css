@@ -1,0 +1,25 @@
+.Header-list {
+  border: 2px solid red;
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+}
+.Header-list-menu {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header {
+  border: 2px solid black;
+  display: flex;
+  height: 20vh;
+  flex-direction: center;
+  justify-content: center;
+  width: 100vw;
+}

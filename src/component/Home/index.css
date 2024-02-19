@@ -1,0 +1,6 @@
+.Home-content {
+  height: 100vh;
+  border: 2px solid yellow;
+  display: flex;
+  flex-direction: column;
+}

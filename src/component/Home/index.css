@@ -1,6 +1,13 @@
+.Home {
+  height: 100vh;
+  border: 2px solid maroon;
+}
 .Home-content {
   height: 100vh;
   border: 2px solid yellow;
   display: flex;
   flex-direction: column;
+}
+.Home-anime {
+  border: 2px solid green;
 }

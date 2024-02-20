@@ -7,16 +7,14 @@ import "./index.css";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="Home">
         <Header />
-        <div className="Home-content">
-          <div>
-            <ProHeader />
-            <div>home</div>
-          </div>
-
-          <Footer />
+        <div>
+          <ProHeader />
+          <div className="Home-anime">home</div>
         </div>
+
+        <Footer />
       </div>
     );
   }
